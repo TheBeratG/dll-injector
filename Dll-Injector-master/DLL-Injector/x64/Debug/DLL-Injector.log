@@ -1,0 +1,15 @@
+﻿  DLL-Injector.cpp
+C:\Users\gm\Desktop\yüklenecek\Dll-Injector-master\DLL-Injector\DLL-Injector.cpp(29,20): error C2664: 'int _stricmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [260]' to 'const char *'
+C:\Users\gm\Desktop\yüklenecek\Dll-Injector-master\DLL-Injector\DLL-Injector.cpp(29,33): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(189,22): message : see declaration of '_stricmp'
+C:\Users\gm\Desktop\yüklenecek\Dll-Injector-master\DLL-Injector\DLL-Injector.cpp(32,21): warning C4477: 'fprintf' : format string '%lX' requires an argument of type 'unsigned long', but variadic argument 1 has type 'PROCESSENTRY32W'
+C:\Users\gm\Desktop\yüklenecek\Dll-Injector-master\DLL-Injector\DLL-Injector.cpp(67,5): warning C4477: 'fprintf' : format string '%lX' requires an argument of type 'unsigned long', but variadic argument 1 has type 'HANDLE'
+C:\Users\gm\Desktop\yüklenecek\Dll-Injector-master\DLL-Injector\DLL-Injector.cpp(67,5): warning C4313: 'fprintf': '%X' in format string conflicts with argument 1 of type 'HANDLE'
+C:\Users\gm\Desktop\yüklenecek\Dll-Injector-master\DLL-Injector\DLL-Injector.cpp(82,36): error C2440: 'initializing': cannot convert from 'const _Elem *' to 'LPCWSTR'
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\gm\Desktop\yüklenecek\Dll-Injector-master\DLL-Injector\DLL-Injector.cpp(82,19): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\gm\Desktop\yüklenecek\Dll-Injector-master\DLL-Injector\DLL-Injector.cpp(93,9): warning C4474: 'fprintf' : too many arguments passed for format string
+C:\Users\gm\Desktop\yüklenecek\Dll-Injector-master\DLL-Injector\DLL-Injector.cpp(93,9): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
